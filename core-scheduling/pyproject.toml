@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "individual-project"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Csillag <dccsillag@gmail.com>"]
+readme = "README.md"
+packages = [{include = "individual_project"}]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+numpy = "^1.26.2"
+scipy = "^1.11.4"
+tqdm = "^4.66.1"
+matplotlib = "^3.8.2"
+icecream = "^2.1.3"
+usim = "^0.4.4"
+ridgeplot = "^0.1.23"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
